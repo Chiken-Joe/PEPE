@@ -54,7 +54,7 @@ restful-booker-tests/
    ```bash
    cd C:\Users\PC\IdeaProjects\Booking
 
-### 2. Создайте и активируйте виртуальное окружение
+## 2. Создайте и активируйте виртуальное окружение
 python -m venv .venv
 # Windows
 .venv\Scripts\activate
@@ -62,9 +62,9 @@ python -m venv .venv
 source .venv/bin/activate
 
 
-### 3. Установите зависимости
+## 3. Установите зависимости
 pip install -r requirements.txt
 
 
-### 4. Запустите тест 
+## 4. Запустите тест 
 pytest tests/ -v
